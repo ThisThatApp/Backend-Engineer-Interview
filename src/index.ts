@@ -4,7 +4,7 @@
 const s = "sdjfhdsfsracecardfda";
 
 
-function longestPalindrome(s: any) {
+export function longestPalindrome(s: any) {
   // Your code here
   return 1;
 }
@@ -12,7 +12,3 @@ function longestPalindrome(s: any) {
 // Should output:
 
 console.log(longestPalindrome(s)) // racecar
-
-
-
-module.exports = longestPalindrome;

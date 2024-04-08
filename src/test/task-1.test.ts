@@ -1,7 +1,7 @@
-const longestPalindromeTest = require('../index');
+const { longestPalindrome } = require('../index');
 
-describe('countFunction', () => {
+describe('longestPalindrome', () => {
     it('should return 1', () => {
-        expect(longestPalindromeTest()).toEqual(1);
+        expect(longestPalindrome()).toEqual(1);
     });
 });
