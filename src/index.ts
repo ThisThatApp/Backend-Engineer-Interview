@@ -1,18 +1,18 @@
-// Write a function to count the number of occurences of a string backwards or forwards inside a given string.
+// Write a function to check the longest palindrome in a string.
 
 // For example:
-const fullString = 'the cat jumped over the pullover in the car rack';
-const testString = 'ca';
+const s = "sdjfhdsfsracecardfda";
 
-function countOccurences() {
-    // Your code here
 
-    return 1;
+function longestPalindrome(s: any) {
+  // Your code here
+  return 1;
 }
 
-// Should output
-// 3
-// From: ('cat', 'car', 'rack')
+// Should output:
+
+console.log(longestPalindrome(s)) // racecar
 
 
-module.exports = countOccurences;
+
+module.exports = longestPalindrome;
