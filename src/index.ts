@@ -1,7 +1,7 @@
 // Write a function to check the longest palindrome in a string.
 
 // For example:
-const s = "sdjfhdsfsracecardfda";
+const testString = "sdjfhdsfsracecardfda";
 
 
 export function longestPalindrome(s: any) {
@@ -11,4 +11,4 @@ export function longestPalindrome(s: any) {
 
 // Should output:
 
-console.log(longestPalindrome(s)) // racecar
+console.log(longestPalindrome(testString)) // racecar
